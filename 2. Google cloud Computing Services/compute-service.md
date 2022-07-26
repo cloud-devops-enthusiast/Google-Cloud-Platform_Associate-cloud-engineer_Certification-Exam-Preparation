@@ -1,5 +1,5 @@
 **Computing Components of Google Cloud Platform**
-GCP is a whole suite of cloud computing services that include various services for which you can refer [this](../1.%20Overview%20of%20Google%20Cloud%20Platform/overview.md)
+GCP is a whole suite of cloud computing services that include various services for which you can refer [this](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/d1e4cd417315f3256f779ebe76382a7f986d6905/1.%20Overview%20of%20Google%20Cloud%20Platform/Overview.md)
 
 * *Computing Resources*
 
