@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/user/fb51e98c-3adf-4260-a9c6-172a980deda7/project/ead0d3a3-064d-40fa-a7e8-bf6d593c35f8.svg)](https://wakatime.com/badge/user/fb51e98c-3adf-4260-a9c6-172a980deda7/project/ead0d3a3-064d-40fa-a7e8-bf6d593c35f8)
+
 This Repository contains the resources and notes for prepration of my Google Cloud Platform's, Associate Cloud Engineer Certification.
 
 This certification assesses your ability to:
