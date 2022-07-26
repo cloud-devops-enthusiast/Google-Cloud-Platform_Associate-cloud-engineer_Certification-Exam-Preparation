@@ -1,7 +1,7 @@
 **Computing Components of Google Cloud Platform**
 GCP is a whole suite of cloud computing services that include various services for which you can refer [this](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/d1e4cd417315f3256f779ebe76382a7f986d6905/1.%20Overview%20of%20Google%20Cloud%20Platform/Overview.md)
 
-* *Computing Resources*
+* **Computing Resources**
 
     Public cloud services provides compute services with so many options to choose from. In this model of service the user has maximum control over all of the computing services. User's can choose which operating system to run, which packages are needed to be install and when to backup and perform the maintainence operations. This type of Computing service is referred as Infrastructure as a Service(IaaS). GCP's IaaS computing service is called Compute Engine and the PaaS offerings are App Engine and Cloud Functions.
 
@@ -41,4 +41,17 @@ GCP is a whole suite of cloud computing services that include various services f
     The cold storage class is low-cost archival stoarge designed for high durability and infrequent access. This class of storage is suitable for data that is accessed infrequently and is not expected to be accessed again for a long time.
 
 * *Persistent Disk*
+    
     Persistent disks are storage service that are attached to VM's in compute engine or kubernetes engine. Persistent disks provide block storage on solid-state drives (SSD's) and hard-disk drives (HDD's). SSDs are often used for low latency applications where persistent disk performance is important. SSD's cost more than HDD's, so applications that require high performance should use SSD's. GCP is that these disks suport multiple readers without a degradation in performance. This allows for multiple instances to read a single copy of data. Disks can also be resized as needed while in use without the need to restart your VM's. Persistent disks can be upto 64TB in size either using SSD's or HDD's.
+
+* *Cloud Storage for Firebase*
+
+    Mobile app developers may find Cloud Storage for firebase to be the best combination of cloud object storage and the ability to support uploads and downloads from mobile devices with sometimes unreliable network connection.
+
+* *Cloud Filestore*
+
+    Cloud filestore can provide high number of input-output operations per second (IOPS) as well as variable storage capacity requirements. Filestore implements the Network File System(NFS) protocol so system administrators can easily mount shared file systems on virtual servers.
+
+* **Databases**
+  
+* *Cloud SQL*
