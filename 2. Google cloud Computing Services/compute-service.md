@@ -53,5 +53,6 @@ GCP is a whole suite of cloud computing services that include various services f
     Cloud filestore can provide high number of input-output operations per second (IOPS) as well as variable storage capacity requirements. Filestore implements the Network File System(NFS) protocol so system administrators can easily mount shared file systems on virtual servers.
 
 * **Databases**
+    GCP has number of database services, out of which some are relational databases and some are NoSQL databases. Some are serverless and others require users to manage clusters of servers. GCP's users must understand their application requirement before choosing a service and this specially important when choosing a database, which often provide core storage services in the application stack.
   
 * *Cloud SQL*
