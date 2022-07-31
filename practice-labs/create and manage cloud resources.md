@@ -50,6 +50,11 @@ Using google cloud shell to ssh into the created VM
 You can create a VM instance in compute engine using The cloud console and the gcloud command line tool.
 
 
+
+####################################################################################################################################
+
+
+
 **Lab Name: Getting Started with Cloud Shell and gcloud (GSP002)**
 
 *Task 1. Configure your environment
