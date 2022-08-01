@@ -160,3 +160,72 @@ View the logs related to the compute
 *Task 6. Test your understanding*
 
 The three basic ways to interact with google cloud services and resources are Client Libraries, Cloud Console and Command Line Interface.
+
+
+
+###########################################################################################################
+
+
+
+**Lab Name: Kubernetes Engine: Qwik Start (GSP100)**
+
+*Task 1. Set a default compute zone*
+
+Set the default region
+
+    gcloud config set compute/region us-central1
+
+Set the default zone
+        
+    gcloud config set compute/zone us-central1-a
+
+<!---lab3.1.png--->
+![lab3.1](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/f4522a7482eb40d25328d7ea06b49c4f971a8720/practice-labs/lab-screenshot/lab%203.1.PNG "Image1")
+
+*Task 2. Create a GKE cluster*
+
+Create a cluster using the google cloud shell
+
+    gcloud container clusters create --machine-type=e2-medium lab-cluster
+
+<!---lab3.2.png--->
+![lab3.2](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/f4522a7482eb40d25328d7ea06b49c4f971a8720/practice-labs/lab-screenshot/lab%203.2.PNG "Image2")
+
+*Task 3. Get authentication credentials for the cluster*
+
+Authenticate to the cluster
+        
+    gcloud container clusters get-credentials lab-cluster
+
+<!---lab3.3.png--->
+![lab3.3](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/f4522a7482eb40d25328d7ea06b49c4f971a8720/practice-labs/lab-screenshot/lab%203.3.PNG "Image3")
+
+*Task 4. Deploy an application to the cluster*
+
+Create a deployment of name *hello-server* from the *hello-app* container image, run the following kubectl command:
+
+    kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0
+
+To create a *kubernetes service* in which you have to expose the clusters to the internet by opening a port on the cluster.
+        
+    kubectl expose deployment hello-server --type=LoadBalancer --port=8080
+
+To check the service use this command:
+
+    kubectl get service
+
+Use the external ip of your kubernetes cluster followed by the port number and use that in the browser whether it's working or not:
+
+    http://[EXTERNAL-IP]:8080
+
+<!---lab3.4.png--->
+![lab3.4](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/f4522a7482eb40d25328d7ea06b49c4f971a8720/practice-labs/lab-screenshot/lab%203.4.PNG "Image4")
+
+*Task 5. Deleting the cluster*
+
+To delete kuberenetes cluster use the following command:
+
+    gcloud container clusters delete lab-cluster
+
+<!---lab3.5.png--->
+![lab2.5](https://github.com/cloud-devops-enthusiast/Google-Cloud-Platform_Associate-cloud-engineer_Certification-Exam-Preparation/blob/f4522a7482eb40d25328d7ea06b49c4f971a8720/practice-labs/lab-screenshot/lab%203.5.PNG "Image5")
