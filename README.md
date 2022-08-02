@@ -24,4 +24,5 @@ For the list of topics for the certification exam you can refer to the GCP ACE e
 You can fork this repository as per your use and can contribute to the same with resources.
 
 The practise test link for the same is [here](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform).
+
 This practise test is created by the Google Cloud peeps, which will help you to get familier with the format of questions. 
